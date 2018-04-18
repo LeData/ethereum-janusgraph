@@ -9,11 +9,11 @@ This is the code repository for the Google and friends work with Ethereum blockc
 
 ## Resources
 
-The JanusGraph instance is called [`ethereum-janusgraph-2`](https://console.cloud.google.com/compute/instancesDetail/zones/us-east1-b/instances/ethereum-janusgraph-2?project=ether-bigquery&graph=GCE_CPU&duration=PT1H). You can ssh into it using the GCP console.
+Access the JanusGraph via its [`ethereum-janusgraph-2`](https://console.cloud.google.com/compute/instancesDetail/zones/us-east1-b/instances/ethereum-janusgraph-2?project=ether-bigquery&graph=GCE_CPU&duration=PT1H) VM instance. Just click on SSH button in the VM instance details to open a terminal.
 
 ## User Setup
 
-Once you ssh into `ethereum-janusgraph-2`, you can get your own copy of JanusGraph with the BigTable configuration file via:
+Once in the above mentioned terminal, you can get your own copy of JanusGraph with the BigTable configuration file via:
 
 ```
 cp -R /home/russell_jurney/janusgraph ./
